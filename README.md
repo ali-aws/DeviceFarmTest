@@ -1,6 +1,6 @@
 # DeviceFarmTest
 
-## To get Activity Nam
+## To get Activity 
 adb shell dumpsys activity activities | grep mFocusedActivity | cut -d . -f 5 | cut -d ' ' -f 1
 
 
